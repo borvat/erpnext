@@ -1,0 +1,60 @@
+{
+  "observed_at": "2026-10-28",
+  "repository": "borvat/erpnext",
+  "base_branch": "develop",
+  "base_head": "4fdfbdd5a3e47812809ecf21b4a603484d55de92",
+  "base_tree": "de2353a6a2a07d52a84bd26e072a89607ec9ba1e",
+  "type": "upstream reference fork",
+  "adaptation": "minimal-reference",
+  "context": {
+    "purpose": "Owner fork of frappe/erpnext retained as upstream reference/shared native ERP engine source.",
+    "architecture": [
+      "Confirmed GitHub fork of frappe/erpnext.",
+      "Large upstream ERPNext codebase; owner application-specific integration/acceptance lives in separate Surooh Accounting/WMS repositories."
+    ],
+    "modules": [
+      "erpnext/",
+      "pyproject.toml",
+      "package.json",
+      "README.md"
+    ],
+    "current_state": "Default develop inspected at4fdfbdd5a3e47812809ecf21b4a603484d55de92 (tree de2353a6a2a07d52a84bd26e072a89607ec9ba1e). Root metadata/files inspected; recursive upstream runtime was not downloaded. No open owner PRs found and no fresh native test/deployment acceptance is claimed.",
+    "verified_features": [
+      "Connected GitHub metadata confirms fork parent/source frappe/erpnext and exact default source revision."
+    ],
+    "blockers": [
+      "Full original-BMAD task-quality rollout is not applicable to an unmodified reference fork without owner-specific code/tasks.",
+      "Fork presence does not prove any Surooh native accounting/stock integration."
+    ],
+    "decisions": [
+      "Apply only a minimal owner engineering documentation/instruction overlay on an independent branch.",
+      "Preserve upstream application code and licensing; do not duplicate the full memory runtime into this reference fork."
+    ],
+    "unfinished": [
+      "Future owner-specific ERPNext work, if assigned, requires source-bound native acceptance in disposable sites."
+    ],
+    "next_step": "Record upstream pin, reference-only purpose and peer ownership in minimal state/history; make no application/runtime changes.",
+    "evidence_paths": [
+      "README.md",
+      "pyproject.toml",
+      "package.json"
+    ],
+    "state_path": "docs/engineering-memory/PROJECT_STATE.md",
+    "history_path": "docs/engineering-memory/HISTORY.md"
+  },
+  "inspected_sources": [
+    {
+      "path": "README.md",
+      "blob_sha": "bb7a8bc2c33033e506dc5c15469aaacfe31ceee5",
+      "error": false,
+      "url": "https://github.com/borvat/erpnext/blob/4fdfbdd5a3e47812809ecf21b4a603484d55de92/README.md"
+    },
+    {
+      "path": "pyproject.toml",
+      "blob_sha": "e89d4f8689b5fe8c9390da20168ae693e8fdce05",
+      "error": false,
+      "url": "https://github.com/borvat/erpnext/blob/4fdfbdd5a3e47812809ecf21b4a603484d55de92/pyproject.toml"
+    }
+  ],
+  "limits": "Source inspection and historical reports only; no new native tests or deployment observed."
+}
